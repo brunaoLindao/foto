@@ -21,7 +21,7 @@ recognition.onresult = function (event) {
         setTimeout(function () {
             takeSelfie();
             Save();
-        });
+        },5000);
     }
 
 }
